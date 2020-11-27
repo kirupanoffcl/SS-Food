@@ -237,7 +237,7 @@ $total_amount=$total_amount+(($qty*$price)+$shippcharge);
 					</span>
 					<span>
 					<?php ?>
-						<label><button onclick="document.location='invoice'">In-voice </button></label>
+						<label><button class="btn btn-default check_out" onclick="document.location='invoice'">In-voice </button></label>
 					</span>
 				</div>
 	<!--/#do_action-->
