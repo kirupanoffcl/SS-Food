@@ -7,6 +7,20 @@ if(strlen($_SESSION['admin_login'])==0)
 header('location:/ssfood/admin');
 }
 else{
+	if(isset($_POST['submit'])){
+		$categoryName = $_POST['categoryName'];
+		$categoryDescription = $_POST['categoryDescription'];
+	
+	$log=mysqli_query($con,"insert into category(categoryName,categoryDescription) values('$categoryName','$categoryDescription')");
+	if($log){
+		echo "<script>alert('Category has been added');
+			window.location.href='dashboard';</script>";
+	}else{
+		echo "<script>alert('something wrong');
+			window.location.href='dashboard';</script>";
+	}
+	
+}
 ?>
 <!doctype html>
 <html class="no-js h-100" lang="en">
@@ -346,17 +360,17 @@ $admin_num=mysqli_num_rows($admin);{
                 <!-- Quick Post -->
                 <div class="card card-small h-100">
                   <div class="card-header border-bottom">
-                    <h6 class="m-0">New Draft</h6>
+                    <h6 class="m-0">New Category</h6>
                   </div>
                   <div class="card-body d-flex flex-column">
-                    <form class="quick-post-form">
+                    <form class="quick-post-form" action="" method="POST">
                       <div class="form-group">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Brave New World"> </div>
+                        <input type="text" class="form-control" name="categoryName" placeholder=""> </div>
                       <div class="form-group">
-                        <textarea class="form-control" placeholder="Words can be like X-rays if you use them properly..."></textarea>
+                        <textarea class="form-control" name ="categoryDescription" placeholder=""></textarea>
                       </div>
                       <div class="form-group mb-0">
-                        <button type="submit" class="btn btn-accent">Create Draft</button>
+                        <button name="submit" type="submit" class="btn btn-accent">Create New Category </button>
                       </div>
                     </form>
                   </div>
