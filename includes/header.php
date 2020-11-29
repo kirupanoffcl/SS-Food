@@ -30,7 +30,7 @@
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="/ssfood"><img src="images/home/logo.png" alt="" /></a>
+							<a href="/ss-food"><img src="images/home/logo.png" alt="" /></a>
 						</div>
 						<form action="search" method="POST">
 						<div class="search_box pull-right">

@@ -101,7 +101,7 @@ echo "<script>alert('Shipping Address has been updated');</script>";
 		<div class="container">
 			<div class="breadcrumbs">
 				<ol class="breadcrumb">
-				  <li><a href="/eshopper">Home</a></li>
+				  <li><a href="/ss-food">Home</a></li>
 				  <li class="active">Wishlist</li>
 				</ol>
 			</div>

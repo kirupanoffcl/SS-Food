@@ -100,7 +100,7 @@ include('includes/config.php');
 		<div class="container">
 			<div class="breadcrumbs">
 				<ol class="breadcrumb">
-				  <li><a href="/eshopper">Home</a></li>
+				  <li><a href="/ss-food">Home</a></li>
 				  <li class="active">Profile</li>
 				</ol>
 			</div><!--/breadcrums-->

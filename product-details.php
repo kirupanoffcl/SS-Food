@@ -56,7 +56,7 @@ if($query){
 			<div class="row">
 			<div class="breadcrumbs">
 				<ol class="breadcrumb">
-				  <li><a href="/eshopper">Home</a></li>
+				  <li><a href="/ss-food">Home</a></li>
 				  <li class="active">Product details</li>
 				</ol>
 			</div>

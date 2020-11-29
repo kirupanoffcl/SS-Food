@@ -114,7 +114,7 @@ header('location:bill-details');
 		<div class="container">
 			<div class="breadcrumbs">
 				<ol class="breadcrumb">
-				  <li><a href="/eshopper">Home</a></li>
+				  <li><a href="/ss-food">Home</a></li>
 				  <li class="active">Check out</li>
 				</ol>
 			</div><!--/breadcrums-->

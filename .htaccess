@@ -6,13 +6,13 @@
   
   
   
-  ErrorDocument 404 /ssfood/404/
+  ErrorDocument 404 /ss-food/404/
 
 RewriteEngine On
 RewriteBase /
 
 RewriteCond %{REQUEST_URI} ^/404/$
-RewriteRule ^(.*)$ ssfood/404 [L]
+RewriteRule ^(.*)$ ss-food/404 [L]
 
 </IfModule>
 
