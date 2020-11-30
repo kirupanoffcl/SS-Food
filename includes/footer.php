@@ -70,7 +70,7 @@
 			<div class="container">
 				<div class="row">
 					<p class="pull-left">Copyright © <script>document.write(new Date().getFullYear())</script> SS-FOOD Inc. All rights reserved.</p>
-					<p class="pull-right">Designed by <span><a target="_blank" href="http://www.facebook.com/kirupanoffcl">Roy (pvt) Ltd</a></span></p>
+					<p class="pull-right">Designed by <span><a target="_blank" href="">SS-Food (pvt) Ltd</a></span></p>
 				</div>
 			</div>
 		</div>

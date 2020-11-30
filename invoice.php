@@ -45,6 +45,7 @@ $email = $row123['email'];
     <meta charset="utf-8">
     <title>Invoice | SS-FOOD</title>
     <link rel="stylesheet" href="css/style.css" media="all" />
+	<link rel="shortcut icon" href="images/icon/tittle.png">
   </head>
   <body>
     <header class="clearfix">
